@@ -1,0 +1,100 @@
+/* Common */
+
+body {
+  padding-top: 40px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #4a4aff;
+  padding: 0 20px;
+  color: #fff;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+}
+button {
+  cursor: pointer;;
+}
+
+.app {
+  width: 1090px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Commerce */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+table thead th {
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-align: left;
+}
+table tbody td {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  text-align: left;
+}
+table tfoot td {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 15px 10px;
+  text-align: right;
+}
+
+table .col-price {
+  width: 80px;
+  text-align: right;
+}
+table .col-quantity {
+  width: 120px;
+  text-align: center;
+}
+table .col-quantity button {
+  margin: 0 8px;
+  width: 25px;
+  height: 25px;
+}
+table .col-quantity .quantity {
+  display: inline-block;
+  min-width: 20px;
+}
+table .col-inventory {
+  width: 60px;
+  text-align: right;
+}
+table .col-addtocart {
+  width: 90px;
+  text-align: center;
+}
+table .col-action {
+  width: 30px;
+  text-align: center;
+}
+table .col-action button {
+  width: 25px;
+  height: 25px;
+}
+
+.total-quantity {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  display: inline-block;
+  text-align: center;
+  background: red;
+  color: #fff;
+  border-radius: 100px;
+  margin-left: 10px;
+}
