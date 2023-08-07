@@ -1,7 +1,7 @@
-import React, {useEffect} from "react"
+import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { NumericFormat } from "react-number-format"
-import { recalculateCart } from "../stores/features/cart/cartSlice";
+import { recalculateCart } from "../stores/features/cart/cartSlice"
 
 const Header = () => {
   const dispatch = useDispatch()

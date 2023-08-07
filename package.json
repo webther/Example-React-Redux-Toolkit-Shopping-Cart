@@ -1,5 +1,5 @@
 {
-  "name": "example-react-redux-shopping-cart",
+  "name": "example-react-redux-toolkit-shopping-cart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,4 +1,4 @@
-import React, {useEffect} from "react"
+import React, { useEffect } from "react"
 import { NumericFormat } from "react-number-format"
 import { useDispatch, useSelector } from "react-redux"
 import { removeItemByPid, increaseQuantityByPid, decreaseQuantityByPid, recalculateCart } from "../stores/features/cart/cartSlice"

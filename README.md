@@ -1,3 +1,11 @@
+# React Example
+
+> This example uses Redux Toolkit to manage the application's states in a shopping cart system.
+> * Manage states via Redux Toolkit.
+> * Store the states of the shopping cart in local storage so we can retrieve them when users refresh the page.
+>
+> See a demo at [https://codesandbox.io/p/github/webther/Example-React-Redux-Toolkit-Shopping-Cart](https://codesandbox.io/p/github/webther/Example-React-Redux-Toolkit-Shopping-Cart)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

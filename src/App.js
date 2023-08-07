@@ -5,10 +5,6 @@ import CommerceProducts from "./components/CommerceProducts";
 import { Provider } from "react-redux"
 import { store } from "./stores/store"
 
-store.subscribe(() => {
-  console.log(store.getState());
-})
-
 const App = () => {
   return (
     <Provider store={store}>

@@ -2,7 +2,7 @@ import React from "react"
 import { NumericFormat } from "react-number-format"
 import { useDispatch, useSelector } from "react-redux"
 import { decreaseInventoryByPid } from "../stores/features/product/productSlice"
-import { addItemByPid } from "../stores/features/cart/cartSlice"
+import { addItemByProduct } from "../stores/features/cart/cartSlice"
 
 const CommerceProduct = () => {
   const dispatch = useDispatch()
@@ -38,7 +38,7 @@ const CommerceProduct = () => {
                 <button
                   disabled={product.inventory <= 0}
                   onClick={() => {
-                    dispatch(addItemByPid(product))
+                    dispatch(addItemByProduct(product))
                     dispatch(decreaseInventoryByPid({ pid: product.pid }))
                   }}
                 >

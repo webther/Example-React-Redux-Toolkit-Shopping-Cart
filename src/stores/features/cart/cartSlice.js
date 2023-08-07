@@ -8,7 +8,7 @@ export const cartSlice = createSlice({
     totalQuantity: 0,
   },
   reducers: {
-    addItemByPid: (state, action) => {
+    addItemByProduct: (state, action) => {
       const cartItemIndex = state.cartItems.findIndex((item) => {
         return item.pid === action.payload.pid
       })
@@ -61,6 +61,6 @@ export const cartSlice = createSlice({
   }
 })
 
-export const { addItemByPid, removeItemByPid, increaseQuantityByPid, decreaseQuantityByPid, recalculateCart } = cartSlice.actions
+export const { addItemByProduct, removeItemByPid, increaseQuantityByPid, decreaseQuantityByPid, recalculateCart } = cartSlice.actions
 
 export default cartSlice.reducer
